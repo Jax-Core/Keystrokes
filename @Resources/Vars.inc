@@ -7,11 +7,11 @@ Font=Reef
 Weight=400
 BackgroundColor=0,0,0
 BackgroundOpacity=0
-DefaultOpacity=200
-DefaultColor=255,255,255
+DefaultOpacity=150
+DefaultColor=0,0,0
 DefaultFontColor=255,255,255
-PressedOpacity=200
-PressedColor=0,0,0
+PressedOpacity=255
+PressedColor=255,255,255
 PressedFontColor=255,0,0
 KeyPadding=5
 ; ------------------------------------ RGB ----------------------------------- ;
