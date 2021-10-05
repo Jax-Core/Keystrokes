@@ -15,7 +15,7 @@ PressedColor=255,255,255
 PressedFontColor=255,0,0
 KeyPadding=5
 ; ------------------------------------ RGB ----------------------------------- ;
-RGBSpeed=5
+RGBSpeed=1
 RGB=1
 RGBOverride=1
 Rm.AniUpdate=40

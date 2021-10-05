@@ -1,4 +1,4 @@
 [RGB]
 Measure=Script
-ScriptFile=#@#Lua\RGB.lua
+ScriptFile=#SKINSPATH##JaxCore\@Resources\Lua\RGB.lua
 UpdateDivider=1
