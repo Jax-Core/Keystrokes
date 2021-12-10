@@ -4,7 +4,7 @@
 
 [Script:M]
 Measure=Script
-ScriptFile=#@#Lua\GenKEystrokeKey.lua
+ScriptFile=#SKINSPATH##Skin.Name#\Core\Gen.lua
 
 ;===========================================================================================================================================================
 

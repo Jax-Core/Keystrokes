@@ -76,27 +76,3 @@ Plugin=HotKey
 HotKey=G
 KeyDownAction=[!SetOption GShape Fill "Fill Color #PressedColor#,#PressedOpacity#"][!SetOption GLabel MeterStyle "Key#RGBOverride#Over:S"][!UpdateMeter GLabel][!UpdateMeter GShape][!Redraw]
 KeyUpAction=[!SetOption GShape Fill "Fill Color #DefaultColor#,#DefaultOpacity#"][!SetOption GLabel MeterStyle "Key#RGB#:S"][!UpdateMeter GLabel][!UpdateMeter GShape][!Redraw]
-[ZkeyMeasure]
-Measure=Plugin
-Plugin=HotKey
-HotKey=Z
-KeyDownAction=[!SetOption ZShape Fill "Fill Color #PressedColor#,#PressedOpacity#"][!SetOption ZLabel MeterStyle "Key#RGBOverride#Over:S"][!UpdateMeter ZLabel][!UpdateMeter ZShape][!Redraw]
-KeyUpAction=[!SetOption ZShape Fill "Fill Color #DefaultColor#,#DefaultOpacity#"][!SetOption ZLabel MeterStyle "Key#RGB#:S"][!UpdateMeter ZLabel][!UpdateMeter ZShape][!Redraw]
-[XkeyMeasure]
-Measure=Plugin
-Plugin=HotKey
-HotKey=X
-KeyDownAction=[!SetOption XShape Fill "Fill Color #PressedColor#,#PressedOpacity#"][!SetOption XLabel MeterStyle "Key#RGBOverride#Over:S"][!UpdateMeter XLabel][!UpdateMeter XShape][!Redraw]
-KeyUpAction=[!SetOption XShape Fill "Fill Color #DefaultColor#,#DefaultOpacity#"][!SetOption XLabel MeterStyle "Key#RGB#:S"][!UpdateMeter XLabel][!UpdateMeter XShape][!Redraw]
-[CkeyMeasure]
-Measure=Plugin
-Plugin=HotKey
-HotKey=C
-KeyDownAction=[!SetOption CShape Fill "Fill Color #PressedColor#,#PressedOpacity#"][!SetOption CLabel MeterStyle "Key#RGBOverride#Over:S"][!UpdateMeter CLabel][!UpdateMeter CShape][!Redraw]
-KeyUpAction=[!SetOption CShape Fill "Fill Color #DefaultColor#,#DefaultOpacity#"][!SetOption CLabel MeterStyle "Key#RGB#:S"][!UpdateMeter CLabel][!UpdateMeter CShape][!Redraw]
-[VkeyMeasure]
-Measure=Plugin
-Plugin=HotKey
-HotKey=V
-KeyDownAction=[!SetOption VShape Fill "Fill Color #PressedColor#,#PressedOpacity#"][!SetOption VLabel MeterStyle "Key#RGBOverride#Over:S"][!UpdateMeter VLabel][!UpdateMeter VShape][!Redraw]
-KeyUpAction=[!SetOption VShape Fill "Fill Color #DefaultColor#,#DefaultOpacity#"][!SetOption VLabel MeterStyle "Key#RGB#:S"][!UpdateMeter VLabel][!UpdateMeter VShape][!Redraw]
