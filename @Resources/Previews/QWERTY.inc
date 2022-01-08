@@ -8,10 +8,28 @@ ScriptFile=#SKINSPATH##Skin.Name#\Core\Gen.lua
 
 ;===========================================================================================================================================================
 
+
+; ----------------------------------- Mouse ---------------------------------- ;
+
+[MouseVis]
+Meter=Shape
+X=(60*[Set.S])
+Y=((((Clamp(#Row1#,0,1)+Clamp(#Row2#,0,1)+Clamp(#Row3#,0,1)+Clamp(#Row4#,0,1))*50+((Clamp(#Row1#,0,1)+Clamp(#Row2#,0,1)+Clamp(#Row3#,0,1)+Clamp(#Row4#,0,1))-1)*#KeyPadding#)/2)*[Set.S])
+Shape=Ellipse 0,0,50,50 | Fill Color #DefaultColor#,#DefaultOpacity# | StrokeWidth (3*[Set.S]) | Scale [Set.S],[Set.S] | Extend One
+Shape2=Ellipse 0,0,10,10 | StrokeWidth 0 | Scale [Set.S],[Set.S] | Extend Two
+One=Stroke Color #DefaultFontColor#
+Two=Fill Color #DefaultFontColor#
+MeterStyle=VisPos#Mouse#:S
+DynamicVariables=1
+Container=PreviewContainer
+Hidden=(1-#Circ#)
+
+; --------------------------------- Keyboard --------------------------------- ;
+
 [1Shape]
 Meter=Shape
 MeterStyle=KeyFullboard:S
-X=((50/2+#KeyPadding#)*[SEt.S])
+X=(((#Circ#)*120+(50/2+#KeyPadding#))*[SEt.S])
 Y=((50/2+#KeyPadding#)*[SEt.S])
 
 [1Label]
@@ -52,7 +70,7 @@ MeterStyle=KeyFullboard:S
 
 [5Label]
 Meter=String
-MeterStyle=KeyNo:S
+MeterStyle=Key:S
 Text=5
 
 [6Shape]
@@ -61,7 +79,7 @@ MeterStyle=KeyFullboard:S
 
 [6Label]
 Meter=String
-MeterStyle=KeyNo:S
+MeterStyle=Key:S
 Text=6
 
 [7Shape]
@@ -70,7 +88,7 @@ MeterStyle=KeyFullboard:S
 
 [7Label]
 Meter=String
-MeterStyle=KeyNo:S
+MeterStyle=Key:S
 Text=7
 
 [8Shape]
@@ -79,7 +97,7 @@ MeterStyle=KeyFullboard:S
 
 [8Label]
 Meter=String
-MeterStyle=KeyNo:S
+MeterStyle=Key:S
 Text=8
 
 [9Shape]
@@ -88,7 +106,7 @@ MeterStyle=KeyFullboard:S
 
 [9Label]
 Meter=String
-MeterStyle=KeyNo:S
+MeterStyle=Key:S
 Text=9
 
 [0Shape]
@@ -97,7 +115,7 @@ MeterStyle=KeyFullboard:S
 
 [0Label]
 Meter=String
-MeterStyle=KeyNo:S
+MeterStyle=Key:S
 Text=0
 
 ;===========================================================================================================================================================
@@ -105,7 +123,7 @@ Text=0
 [QShape]
 Meter=Shape
 MeterStyle=KeyFullboard:S
-X=((50+#KeyPadding#)*[SEt.S])
+X=(((#Circ#)*120+(50+#KeyPadding#))*[SEt.S])
 Y=((50+#KeyPadding#)*[SEt.S])r
 
 [QLabel]
@@ -146,7 +164,7 @@ MeterStyle=KeyFullboard:S
 
 [TLabel]
 Meter=String
-MeterStyle=KeyNo:S
+MeterStyle=Key:S
 Text=T
 
 [YShape]
@@ -155,7 +173,7 @@ MeterStyle=KeyFullboard:S
 
 [YLabel]
 Meter=String
-MeterStyle=KeyNo:S
+MeterStyle=Key:S
 Text=Y
 
 [UShape]
@@ -164,7 +182,7 @@ MeterStyle=KeyFullboard:S
 
 [ULabel]
 Meter=String
-MeterStyle=KeyNo:S
+MeterStyle=Key:S
 Text=U
 
 [IShape]
@@ -173,7 +191,7 @@ MeterStyle=KeyFullboard:S
 
 [ILabel]
 Meter=String
-MeterStyle=KeyNo:S
+MeterStyle=Key:S
 Text=I
 
 [OShape]
@@ -182,7 +200,7 @@ MeterStyle=KeyFullboard:S
 
 [OLabel]
 Meter=String
-MeterStyle=KeyNo:S
+MeterStyle=Key:S
 Text=O
 
 [PShape]
@@ -191,7 +209,7 @@ MeterStyle=KeyFullboard:S
 
 [PLabel]
 Meter=String
-MeterStyle=KeyNo:S
+MeterStyle=Key:S
 Text=P
 
 ;===========================================================================================================================================================
@@ -199,7 +217,7 @@ Text=P
 [AShape]
 Meter=Shape
 MeterStyle=KeyFullboard:S
-X=((50*1.5+#KeyPadding#)*[SEt.S])
+X=(((#Circ#)*120+(50*1.5+#KeyPadding#))*[SEt.S])
 Y=((50+#KeyPadding#)*[SEt.S])r
 
 [ALabel]
@@ -249,7 +267,7 @@ MeterStyle=KeyFullboard:S
 
 [HLabel]
 Meter=String
-MeterStyle=KeyNo:S
+MeterStyle=Key:S
 Text=H
 
 [JShape]
@@ -258,7 +276,7 @@ MeterStyle=KeyFullboard:S
 
 [JLabel]
 Meter=String
-MeterStyle=KeyNo:S
+MeterStyle=Key:S
 Text=J
 
 [KShape]
@@ -267,7 +285,7 @@ MeterStyle=KeyFullboard:S
 
 [KLabel]
 Meter=String
-MeterStyle=KeyNo:S
+MeterStyle=Key:S
 Text=K
 
 [LShape]
@@ -276,7 +294,7 @@ MeterStyle=KeyFullboard:S
 
 [LLabel]
 Meter=String
-MeterStyle=KeyNo:S
+MeterStyle=Key:S
 Text=L
 
 ;===========================================================================================================================================================
@@ -284,7 +302,7 @@ Text=L
 [ZShape]
 Meter=Shape
 MeterStyle=KeyFullboard:S
-X=((50*2+#KeyPadding#*2)*[SEt.S])
+X=(((#Circ#)*120+(50*2+#KeyPadding#*2))*[SEt.S])
 Y=((50+#KeyPadding#)*[SEt.S])r
 
 [ZLabel]
@@ -334,7 +352,7 @@ MeterStyle=KeyFullboard:S
 
 [BLabel]
 Meter=String
-MeterStyle=KeyNo:S
+MeterStyle=Key:S
 Text=B
 
 [NShape]
@@ -343,7 +361,7 @@ MeterStyle=KeyFullboard:S
 
 [NLabel]
 Meter=String
-MeterStyle=KeyNo:S
+MeterStyle=Key:S
 Text=N
 
 [MShape]
@@ -352,7 +370,7 @@ MeterStyle=KeyFullboard:S
 
 [MLabel]
 Meter=String
-MeterStyle=KeyNo:S
+MeterStyle=Key:S
 Text=M
 
 
@@ -370,10 +388,10 @@ Act=[!CommandMeasure Script:M "Generate()"]
 Container=Container
 MeterStyle=Set.Button:S
 
-[Circ]
+[GenerateText]
 Meter=String
 Container=Container
-X=(150/2*[Set.S])r
+X=(200/2*[Set.S])r
 StringAlign=CenterCenter
 FontFace=Poppins Semibold
 MeterStyle=Set.String:S | Set.Value:S

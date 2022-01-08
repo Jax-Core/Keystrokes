@@ -1,1 +1,4 @@
 @Resources\Vars.inc
+Main\Styles\QWERTY.inc
+@Resources\Global\KeyQWERTY.inc
+@Resources\Previews\QWERTY.inc

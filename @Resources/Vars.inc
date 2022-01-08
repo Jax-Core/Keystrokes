@@ -7,7 +7,7 @@ Font=Reef
 Weight=400
 BackgroundColor=0,0,0
 BackgroundOpacity=0
-DefaultOpacity=150
+DefaultOpacity=75
 DefaultColor=0,0,0
 DefaultFontColor=255,255,255
 PressedOpacity=255
@@ -16,18 +16,18 @@ PressedFontColor=255,0,0
 KeyPadding=5
 ; ------------------------------------ RGB ----------------------------------- ;
 RGBSpeed=1
-RGB=1
-RGBOverride=1
+RGB=0
+RGBOverride=0
 Rm.AniUpdate=40
 ; ---------------------------------- Circle ---------------------------------- ;
-Circ=0
-MaxX=250
-MaxY=250
-MouseFetchDelay=20
+Circ=1
+MaxX=300
+MaxY=300
+MouseFetchDelay=10
 ; ---------------------------------- Layout ---------------------------------- ;
-Layout=QWERTY
+Layout=WASD
 ; -------------------------------- Mouse & CPS ------------------------------- ;
-Mouse=0
+Mouse=1
 MouseCPS=0
 ; --------------------------------- Defaults --------------------------------- ;
 PreviousX=0
@@ -42,7 +42,7 @@ P=40
 R=10
 GlobalP=10
 ; --------------------------------- Fullboard -------------------------------- ;
-Row1=1111000000
-Row2=1111000000
-Row3=111110000
-Row4=0000000
+Row1=1111111111
+Row2=1111111111
+Row3=111111111
+Row4=1111111

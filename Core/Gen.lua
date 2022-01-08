@@ -35,7 +35,7 @@ function Generate()
         '['..array1[1]..'Shape]\n'
         ,'Meter=Shape\n'
         ,'MeterStyle=KeyB'..ShapeString..':S\n'
-        ,'X=((50/2+#KeyPadding#)*#Scale#)\n'
+        ,'X=(((#Circ#)*110+(50/2+#KeyPadding#))*#Scale#)\n'
         ,'Y=((50/2+#KeyPadding#)*#Scale#)\n'
         ,'['..array1[1]..'Label]\n'
         ,'Meter=String\n'
@@ -77,7 +77,7 @@ function Generate()
         '['..array2[1]..'Shape]\n'
         ,'Meter=Shape\n'
         ,'MeterStyle=KeyB'..ShapeString..':S\n'
-        ,'X=((50+#KeyPadding#)*#Scale#)\n'
+        ,'X=(((#Circ#)*110+(50+#KeyPadding#))*#Scale#)\n'
         ,'Y=((50+#KeyPadding#)*#Scale#)r\n'
         ,'['..array2[1]..'Label]\n'
         ,'Meter=String\n'
@@ -119,7 +119,7 @@ function Generate()
         '['..array3[1]..'Shape]\n'
         ,'Meter=Shape\n'
         ,'MeterStyle=KeyB'..ShapeString..':S\n'
-        ,'X=((50*1.5+#KeyPadding#)*#Scale#)\n'
+        ,'X=(((#Circ#)*110+(50*1.5+#KeyPadding#))*#Scale#)\n'
         ,'Y=((50+#KeyPadding#)*#Scale#)r\n'
         ,'['..array3[1]..'Label]\n'
         ,'Meter=String\n'
@@ -161,7 +161,7 @@ function Generate()
         '['..array4[1]..'Shape]\n'
         ,'Meter=Shape\n'
         ,'MeterStyle=KeyB'..ShapeString..':S\n'
-        ,'X=((50*2+#KeyPadding#)*#Scale#)\n'
+        ,'X=(((#Circ#)*110+(50*2+#KeyPadding#))*#Scale#)\n'
         ,'Y=((50+#KeyPadding#)*#Scale#)r\n'
         ,'['..array4[1]..'Label]\n'
         ,'Meter=String\n'
@@ -323,15 +323,15 @@ function Toggle(key)
     if bool == 0 then
         row = replace_char(position, row, '1')
         SKIN:Bang('!SetOption', key..'Label', 'MeterStyle', 'Key:S')
-        SKIN:Bang('!WriteKeYvalue', key..'Label', 'MeterStyle', 'Key:S', root..'Secoverrides\\Keystrokes\\Previews\\QWERTY.inc')
+        SKIN:Bang('!WriteKeYvalue', key..'Label', 'MeterStyle', 'Key:S', SKIN:GetVariable('SKINSPATH')..'Keystrokes'..'\\@Resources\\Previews\\QWERTY.inc')
     else
         row = replace_char(position, row, '0')
         SKIN:Bang('!SetOption', key..'Label', 'MeterStyle', 'KeyNo:S')
-        SKIN:Bang('!WriteKeYvalue', key..'Label', 'MeterStyle', 'KeyNo:S', root..'Secoverrides\\Keystrokes\\Previews\\QWERTY.inc')
+        SKIN:Bang('!WriteKeYvalue', key..'Label', 'MeterStyle', 'KeyNo:S', SKIN:GetVariable('SKINSPATH')..'Keystrokes'..'\\@Resources\\Previews\\QWERTY.inc')
     end
     SKIN:Bang('!WriteKeyValue', 'Variables', 'Row'..rowN, row, saveLocation)
     SKIN:Bang('!SetVariable', 'Row'..rowN, row)
-    SKIN:Bang('!UpdateMeter', key..'Label')
+    SKIN:Bang('!UpdateMeter', '*')
     SKIN:Bang('!Redraw')
     
     r1 = SKIN:GetVariable('Row1')
