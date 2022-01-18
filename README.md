@@ -37,7 +37,9 @@
       </ul>
     </li>
 
-
+ <li>
+      <a href="#help">Help</a>
+    </li>
   </ol>
 </details>
 
@@ -85,6 +87,5 @@ Now that you've installed and configured Keystrokes, let's take a look at some o
 * Further customization can be done through the **Appearance** tab which also includes the **RBG Chroma** feature.
 
 
-## Help and Credits
-- [IsFullScreen](https://forum.rainmeter.net/viewtopic.php?t=28305#p147499) plugin by jsmorley
+## Help
 - Join the [Core Community Discord Server](https://discord.gg/JmgehPSDD6) for more help.
