@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Jax-Core/Keystrokes">
-    <img src="https://imgur.com/EjekXps.png" alt="Logo" width="200" height="200">
+    <img src="https://imgur.com/EjekXps.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Keystrokes</h3>
@@ -46,7 +46,7 @@
 
 ## About
 
-![KeyStrokes](https://imgur.com/WubfNFO.png)
+![KeyStrokes](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/97bfd084-7ef0-496f-a835-3c41f482d38c/dephucb-24da798b-a2bb-4dc9-85f9-eb1e339796fa.png)
 
 KeyStrokes is a Rainmeter skin that displays your keypresses in real-time. It allows you to choose between two display presets and comes with serveral appearance customization options, as the name implies.
 
