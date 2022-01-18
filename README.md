@@ -79,8 +79,8 @@ Assuming you successfully downloaded and installed Rainmeter as well as JaxCore,
 Now that you've installed and configured Keystrokes, let's take a look at some of its customization options!
 
 * Layouts:
-  - **Movements :** Displays only the movement keys (W,A,S,D, and Spacebar) as well as mouse buttons and the accelerometer. 
-  - **Fullboard :** Displays your entire keyboard as well the mouse accelerometer.
+  - **Movements :** Displays only the movement keys (W,A,S,D, and Spacebar) along with the mouse buttons and the accelerometer. 
+  - **Fullboard :** Displays your entire keyboard and the mouse accelerometer.
 
   **Note: Mouse Buttons and Mouse Accelerometer can be toggled On or Off when using either preset.**
 
