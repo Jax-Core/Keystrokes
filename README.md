@@ -93,7 +93,7 @@ There are currently two layout presets available in Keystrokes. They are,
 - **Movements :** Displays only the movement keys (W,A,S,D, and Spacebar) along with the mouse buttons and the accelerometer. 
 - **Fullboard :** Displays your entire keyboard and the mouse accelerometer.
 
-> **Note:** Mouse Buttons and Mouse Accelerometer can be toggled On or Off when using either preset.**
+> **Note:** Mouse Buttons and Mouse Accelerometer can be toggled On or Off when using either preset.
 
 #### Hotkeys:
 Using hotkeys, you can toggle **Draggability** and **Visibility**. Simply follow the steps below to setup hotkeys for the aforementioned actions.
