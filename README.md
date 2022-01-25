@@ -106,7 +106,7 @@ Using hotkeys, you can toggle **Draggability** and **Visibility**. Simply follow
 4. Set the new hotkey and press **Confirm**.
 5. Refresh **Keystrokes** by deactivating and activating again using the toggle on the bottom left.
 
-> Further customization can be done through the **Appearance** tab which also includes the **RBG Chroma** feature.
+> **Note:** Further customization can be done through the **Appearance** tab which also includes the **RBG Chroma** feature.
 
 <p align="right">
     <b><a href="#top">↥ back to top</a></b>
