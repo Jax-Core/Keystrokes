@@ -1,3 +1,4 @@
+<div id="top"></div>
 
 <br />
 <div align="center">
@@ -50,12 +51,20 @@
 
 KeyStrokes is a Rainmeter skin that displays your keypresses in real-time. It allows you to choose between two display presets and comes with serveral appearance customization options, as the name implies.
 
+<p align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</p>
+
 ## Features
 
 * RGB Chroma Feature
 * 2 Display Presets
 * Slew Of Customization Options 
 * Accelerometer Support
+
+<p align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</p>
 
 ## Getting Started
 
@@ -72,20 +81,40 @@ Assuming you successfully downloaded and installed Rainmeter as well as JaxCore,
 2. Leave the installation settings at their defaults and click Install.
 3. When the installation is finished, a startup pop-up should appear. Follow through the pop-up to finish installing **Keystrokes**.
 
-* Note:  If you find that the JaxCore option is red on the startup pop-up, please press the red button and Core will be installed automatically. Perchance this fails, you can manually install Core by downloading the `.rmskin` file from [JaxCore's official website.](https://jax-core.github.io/)
+> **Note:**  If you find that the JaxCore option is red on the startup pop-up, please press the red button and Core will be installed automatically. Perchance this fails, you can manually install Core by downloading the `.rmskin` file from [JaxCore's official website.](https://jax-core.github.io/)
 
 ### Customization
 
 Now that you've installed and configured Keystrokes, let's take a look at some of its customization options!
 
-* Layouts:
-  - **Movements :** Displays only the movement keys (W,A,S,D, and Spacebar) along with the mouse buttons and the accelerometer. 
-  - **Fullboard :** Displays your entire keyboard and the mouse accelerometer.
+#### Layouts:
 
-  **Note: Mouse Buttons and Mouse Accelerometer can be toggled On or Off when using either preset.**
+There are currently two layout presets available in Keystrokes. They are,
+- **Movements :** Displays only the movement keys (W,A,S,D, and Spacebar) along with the mouse buttons and the accelerometer. 
+- **Fullboard :** Displays your entire keyboard and the mouse accelerometer.
 
-* Further customization can be done through the **Appearance** tab which also includes the **RBG Chroma** feature.
+> **Note:** Mouse Buttons and Mouse Accelerometer can be toggled On or Off when using either preset.**
 
+#### Hotkeys:
+Using hotkeys, you can toggle **Draggability** and **Visibility**. Simply follow the steps below to setup hotkeys for the aforementioned actions.
+
+1. Open Core and head over to the **Modules** section.
+2. Select **Keystrokes** from the list and proceed to the **General** tab.
+3. Under **Hotkeys** you can, 
+    - Click the `LWin K` text to set the hotkey for toggling **visibility** on or off. 
+    - Click the `LWin O` text to set the hotkey for toggling **draggability** on or off.
+4. Set the new hotkey and press **Confirm**.
+5. Refresh **Keystrokes** by deactivating and activating again using the toggle on the bottom left.
+
+> Further customization can be done through the **Appearance** tab which also includes the **RBG Chroma** feature.
+
+<p align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</p>
 
 ## Help
 - Join the [Core Community Discord Server](https://discord.gg/JmgehPSDD6) for more help.
+
+<p align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</p>
