@@ -100,7 +100,7 @@ Using hotkeys, you can toggle **Draggability** and **Visibility**. Simply follow
 
 1. Open Core and head over to the **Modules** section.
 2. Select **Keystrokes** from the list and proceed to the **General** tab.
-3. Under **Hotkeys** you can, 
+3. Under **Hotkeys**, 
     - Click the `LWin K` text to set the hotkey for toggling **visibility** on or off. 
     - Click the `LWin O` text to set the hotkey for toggling **draggability** on or off.
 4. Set the new hotkey and press **Confirm**.
