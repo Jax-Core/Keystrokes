@@ -24,6 +24,7 @@ IfWinExist, i)%Name%.* ahk_class AutoHotkey
     ValliAhkPath = % RegExReplace(a_scriptdir,"Keystrokes.*\\?$")"Vallistart\@Resources\Actions\"
     Run, %ValliAhkPath%AHKv1.exe `"%ValliScriptPath%`", %ValliAhkPath%
 }
+SetTitleMatchMode, 2
 Return
 
 Action1:
