@@ -1,7 +1,5 @@
 #SingleInstance Force
 #NoTrayIcon
-SetTitleMatchMode, 2
-DetectHiddenWindows, On
 dragging = 0
 
 
@@ -17,6 +15,15 @@ IniRead, RainmeterPath, Hotkeys.ini, Variables, RMPATH
 
 Hotkey, %Key1%, Action1
 Hotkey, %Key2%, Action2
+
+DetectHiddenWindows On
+SetTitleMatchMode RegEx
+IfWinExist, i)%Name%.* ahk_class AutoHotkey
+{
+    ValliScriptPath = % RegExReplace(a_scriptdir,"Keystrokes.*\\?$")"Vallistart\@Resources\Actions\Source code\Vallistart.ahk"
+    ValliAhkPath = % RegExReplace(a_scriptdir,"Keystrokes.*\\?$")"Vallistart\@Resources\Actions\"
+    Run, %ValliAhkPath%AHKv1.exe `"%ValliScriptPath%`", %ValliAhkPath%
+}
 Return
 
 Action1:
