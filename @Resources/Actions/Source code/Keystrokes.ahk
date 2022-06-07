@@ -16,6 +16,7 @@ IniRead, RainmeterPath, Hotkeys.ini, Variables, RMPATH
 Hotkey, %Key1%, Action1
 Hotkey, %Key2%, Action2
 
+Name = ValliStart.ahk
 DetectHiddenWindows On
 SetTitleMatchMode RegEx
 IfWinExist, i)%Name%.* ahk_class AutoHotkey
